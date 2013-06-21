@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 		console.log("Submit button was clicked");
 	});
 	('.form').validate({
-		rules  {
+		rules : {
 			username :{
 				required: true,
 				email : true

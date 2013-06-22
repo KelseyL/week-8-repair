@@ -1,8 +1,10 @@
 jQuery(document).ready(function($) {
+
 	$('#submit').click(function(event) {
 		console.log("Submit button was clicked");
 	});
-	('#form').validate({
+
+	$('#form').validate({
 		rules : {
 			username :{
 				required: true,

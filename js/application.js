@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 				required :"Enter your password",
 				minlength : jQuery.format("Your password is at least {0} characters long"),
 				maxlength : jQuery.format("Your password can't be longer than {0} characters")
-			
+			}
 		}
 
 	});

@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
 
 	$('#form').validate({
 		rules : {
-			username :{
+			username : {
 				required: true,
 				email : true
 			},
@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 				email : "Your email looks funny"
 			},
 
-			password :{
+			password : {
 				required :"Enter your password",
 				minlength : jQuery.format("Your password is at least {0} characters long"),
 				maxlength : jQuery.format("Your password can't be longer than {0} characters")
